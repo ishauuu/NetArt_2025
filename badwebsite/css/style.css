@@ -1,0 +1,55 @@
+<style>
+h1{color: #00ff00;}
+body{
+    background-image: url("https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=2770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+h1 {
+  border: 5px solid red;
+}
+p.outset {border-style: outset;}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-decoration: overline underline;
+}
+h2 {
+  color: rgb(33, 12, 222);
+  border: 4px dotted black;
+  margin: 20px;
+  padding: 45px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background: rgb(197, 7, 230);
+}
+h3 {
+  color: rgb(87, 243, 168);
+  border: 4px dashed black;
+  margin: 15px;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 12px;
+  background: rgb(192, 18, 64);
+}
+  div {
+    color: red;
+    border: 10px solid rgb(169, 133, 183);
+    background-color: rgb(107, 158, 234);
+    padding: 10px;  
+    width: 210px;
+}
+span {
+  color: red;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  text-transform: uppercase;
+letter-spacing: 1px;
+linae-height: 11px;
+}
+.purple {
+  color: rgb(131, 20, 223);
+}
+p{
+    color:aqua
+}
+</style>
