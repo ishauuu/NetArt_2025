@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Try to avoid the water spilling into the cup!</h1>
+    <h2>Try to get the strawberry to align with the chocolate sauce! Quick!</h2>
+    <div class="waterdrop">
+        <img src="https://static.vecteezy.com/system/resources/previews/044/570/540/non_2x/single-water-drop-on-transparent-background-free-png.png">
+    <div class="image-wrapper">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/046/828/456/small/empty-drinking-glass-isolated-on-transparent-background-png.png">
+  </div>
+  <div class="chocodrip">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/052/583/986/small_2x/rich-chocolate-syrup-dripping-from-a-spoon-isolated-on-transparent-background-png.png">
+    <div class="strawb">
+    <img src="https://pngimg.com/d/strawberry_PNG2595.png">
+  </div>
+</body>
+<style>img {
+    width: 15%;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(400px);
+    }
+  }
+  .waterdrop {
+    animation: move 2s infinite alternate;
+  }
+  .image-wrapper:hover {
+    animation: move 2s infinite alternate;
+  }
+  .chocodrip {
+    animation: move 2s infinite alternate;
+  }
+  .strawb:hover {
+    animation: move 2s infinite alternate;
+  }
+  </style>
+</html>
